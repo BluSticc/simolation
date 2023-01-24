@@ -1,18 +1,18 @@
-public class Ship {
+public class SailShip {
 
     int passengers;
     double cargoCapacity;
     double speed;
     String name;
-    double fuel;
+    double food;
     int crew;
 
-    public Ship(int passengers, double cargoCapacity, double speed, String name, double fuel, int crew) {
+    public SailShip(int passengers, double cargoCapacity, double speed, String name, double food, int crew) {
         this.passengers = passengers;
         this.cargoCapacity = cargoCapacity;
         this.speed = speed;
         this.name = name;
-        this.fuel = fuel;
+        this.food = food;
         this.crew = crew;
     }
 // getters and setters
@@ -40,11 +40,11 @@ public class Ship {
     public void setName(String name){
         this.name = name;
     }
-    public double getFuel(double fuel){
-        return fuel;
+    public double getFuel(double food){
+        return food;
     }
     public void setFuel(double fuel){
-        this.fuel = fuel;
+        this.food = food;
     }
     public int getCrew(int crew){
         return crew;
