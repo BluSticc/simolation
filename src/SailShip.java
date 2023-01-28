@@ -2,17 +2,16 @@ public class SailShip {
 
     int passengers;
     double cargoCapacity;
-    double speed;
-    String name;
-    double food;
     int crew;
+    String speed;
+    String name;
 
-    public SailShip(int passengers, double cargoCapacity, double speed, String name, double food, int crew) {
+
+    public SailShip(int passengers, String speed,  double cargoCapacity, String name, int crew) {
         this.passengers = passengers;
         this.cargoCapacity = cargoCapacity;
         this.speed = speed;
         this.name = name;
-        this.food = food;
         this.crew = crew;
     }
 // getters and setters
